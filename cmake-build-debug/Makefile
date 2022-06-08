@@ -344,6 +344,30 @@ Core/Src/retarget.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RTOS_TEST.elf.dir\build.make CMakeFiles/RTOS_TEST.elf.dir/Core/Src/retarget.c.s
 .PHONY : Core/Src/retarget.c.s
 
+Core/Src/spi.obj: Core/Src/spi.c.obj
+.PHONY : Core/Src/spi.obj
+
+# target to build an object file
+Core/Src/spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RTOS_TEST.elf.dir\build.make CMakeFiles/RTOS_TEST.elf.dir/Core/Src/spi.c.obj
+.PHONY : Core/Src/spi.c.obj
+
+Core/Src/spi.i: Core/Src/spi.c.i
+.PHONY : Core/Src/spi.i
+
+# target to preprocess a source file
+Core/Src/spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RTOS_TEST.elf.dir\build.make CMakeFiles/RTOS_TEST.elf.dir/Core/Src/spi.c.i
+.PHONY : Core/Src/spi.c.i
+
+Core/Src/spi.s: Core/Src/spi.c.s
+.PHONY : Core/Src/spi.s
+
+# target to generate assembly for a file
+Core/Src/spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RTOS_TEST.elf.dir\build.make CMakeFiles/RTOS_TEST.elf.dir/Core/Src/spi.c.s
+.PHONY : Core/Src/spi.c.s
+
 Core/Src/stm32f1xx_hal_msp.obj: Core/Src/stm32f1xx_hal_msp.c.obj
 .PHONY : Core/Src/stm32f1xx_hal_msp.obj
 
@@ -776,6 +800,30 @@ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RTOS_TEST.elf.dir\build.make CMakeFiles/RTOS_TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s
 
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.obj
+
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RTOS_TEST.elf.dir\build.make CMakeFiles/RTOS_TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.i
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.i
+
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RTOS_TEST.elf.dir\build.make CMakeFiles/RTOS_TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.i
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.i
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.s
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.s
+
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RTOS_TEST.elf.dir\build.make CMakeFiles/RTOS_TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.s
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.s
+
 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.obj
 
@@ -1132,6 +1180,9 @@ help:
 	@echo ... Core/Src/retarget.obj
 	@echo ... Core/Src/retarget.i
 	@echo ... Core/Src/retarget.s
+	@echo ... Core/Src/spi.obj
+	@echo ... Core/Src/spi.i
+	@echo ... Core/Src/spi.s
 	@echo ... Core/Src/stm32f1xx_hal_msp.obj
 	@echo ... Core/Src/stm32f1xx_hal_msp.i
 	@echo ... Core/Src/stm32f1xx_hal_msp.s
@@ -1186,6 +1237,9 @@ help:
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.obj
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.i
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.s
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.obj
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.i
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.s
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.obj
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.i
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.s

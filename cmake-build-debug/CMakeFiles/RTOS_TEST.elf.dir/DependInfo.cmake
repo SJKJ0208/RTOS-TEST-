@@ -21,8 +21,6 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "../Core/Inc/LCD"
-  "../Core/Inc/LED"
   "../Core/SYSTEM/delay"
   "../Core/SYSTEM/sys"
   "../Core/SYSTEM/usart"
@@ -45,6 +43,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "E:/a-component/a-key-open/RTOS_TEST/Core/Src/gpio.c" "E:/a-component/a-key-open/RTOS_TEST/cmake-build-debug/CMakeFiles/RTOS_TEST.elf.dir/Core/Src/gpio.c.obj"
   "E:/a-component/a-key-open/RTOS_TEST/Core/Src/main.c" "E:/a-component/a-key-open/RTOS_TEST/cmake-build-debug/CMakeFiles/RTOS_TEST.elf.dir/Core/Src/main.c.obj"
   "E:/a-component/a-key-open/RTOS_TEST/Core/Src/retarget.c" "E:/a-component/a-key-open/RTOS_TEST/cmake-build-debug/CMakeFiles/RTOS_TEST.elf.dir/Core/Src/retarget.c.obj"
+  "E:/a-component/a-key-open/RTOS_TEST/Core/Src/spi.c" "E:/a-component/a-key-open/RTOS_TEST/cmake-build-debug/CMakeFiles/RTOS_TEST.elf.dir/Core/Src/spi.c.obj"
   "E:/a-component/a-key-open/RTOS_TEST/Core/Src/stm32f1xx_hal_msp.c" "E:/a-component/a-key-open/RTOS_TEST/cmake-build-debug/CMakeFiles/RTOS_TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
   "E:/a-component/a-key-open/RTOS_TEST/Core/Src/stm32f1xx_it.c" "E:/a-component/a-key-open/RTOS_TEST/cmake-build-debug/CMakeFiles/RTOS_TEST.elf.dir/Core/Src/stm32f1xx_it.c.obj"
   "E:/a-component/a-key-open/RTOS_TEST/Core/Src/syscalls.c" "E:/a-component/a-key-open/RTOS_TEST/cmake-build-debug/CMakeFiles/RTOS_TEST.elf.dir/Core/Src/syscalls.c.obj"
@@ -63,6 +62,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "E:/a-component/a-key-open/RTOS_TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" "E:/a-component/a-key-open/RTOS_TEST/cmake-build-debug/CMakeFiles/RTOS_TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
   "E:/a-component/a-key-open/RTOS_TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" "E:/a-component/a-key-open/RTOS_TEST/cmake-build-debug/CMakeFiles/RTOS_TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
   "E:/a-component/a-key-open/RTOS_TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" "E:/a-component/a-key-open/RTOS_TEST/cmake-build-debug/CMakeFiles/RTOS_TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+  "E:/a-component/a-key-open/RTOS_TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c" "E:/a-component/a-key-open/RTOS_TEST/cmake-build-debug/CMakeFiles/RTOS_TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj"
   "E:/a-component/a-key-open/RTOS_TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" "E:/a-component/a-key-open/RTOS_TEST/cmake-build-debug/CMakeFiles/RTOS_TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
   "E:/a-component/a-key-open/RTOS_TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" "E:/a-component/a-key-open/RTOS_TEST/cmake-build-debug/CMakeFiles/RTOS_TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
   "E:/a-component/a-key-open/RTOS_TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" "E:/a-component/a-key-open/RTOS_TEST/cmake-build-debug/CMakeFiles/RTOS_TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
@@ -87,8 +87,6 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../Core/Inc/LCD"
-  "../Core/Inc/LED"
   "../Core/SYSTEM/delay"
   "../Core/SYSTEM/sys"
   "../Core/SYSTEM/usart"

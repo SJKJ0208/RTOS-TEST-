@@ -36,8 +36,6 @@
 				<Compiler>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103xB"/>
-					<Add directory="E:/a-component/a-key-open/RTOS_TEST/Core/Inc/LCD"/>
-					<Add directory="E:/a-component/a-key-open/RTOS_TEST/Core/Inc/LED"/>
 					<Add directory="E:/a-component/a-key-open/RTOS_TEST/Core/SYSTEM/delay"/>
 					<Add directory="E:/a-component/a-key-open/RTOS_TEST/Core/SYSTEM/sys"/>
 					<Add directory="E:/a-component/a-key-open/RTOS_TEST/Core/SYSTEM/usart"/>
@@ -72,8 +70,6 @@
 				<Compiler>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103xB"/>
-					<Add directory="E:/a-component/a-key-open/RTOS_TEST/Core/Inc/LCD"/>
-					<Add directory="E:/a-component/a-key-open/RTOS_TEST/Core/Inc/LED"/>
 					<Add directory="E:/a-component/a-key-open/RTOS_TEST/Core/SYSTEM/delay"/>
 					<Add directory="E:/a-component/a-key-open/RTOS_TEST/Core/SYSTEM/sys"/>
 					<Add directory="E:/a-component/a-key-open/RTOS_TEST/Core/SYSTEM/usart"/>
@@ -128,6 +124,9 @@
 		<Unit filename="E:/a-component/a-key-open/RTOS_TEST/Core/Inc/retarget.h">
 			<Option target="RTOS_TEST.elf"/>
 		</Unit>
+		<Unit filename="E:/a-component/a-key-open/RTOS_TEST/Core/Inc/spi.h">
+			<Option target="RTOS_TEST.elf"/>
+		</Unit>
 		<Unit filename="E:/a-component/a-key-open/RTOS_TEST/Core/Inc/stm32f1xx_hal_conf.h">
 			<Option target="RTOS_TEST.elf"/>
 		</Unit>
@@ -171,6 +170,9 @@
 			<Option target="RTOS_TEST.elf"/>
 		</Unit>
 		<Unit filename="E:/a-component/a-key-open/RTOS_TEST/Core/Src/retarget.c">
+			<Option target="RTOS_TEST.elf"/>
+		</Unit>
+		<Unit filename="E:/a-component/a-key-open/RTOS_TEST/Core/Src/spi.c">
 			<Option target="RTOS_TEST.elf"/>
 		</Unit>
 		<Unit filename="E:/a-component/a-key-open/RTOS_TEST/Core/Src/stm32f1xx_hal_msp.c">
@@ -272,6 +274,9 @@
 		<Unit filename="E:/a-component/a-key-open/RTOS_TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h">
 			<Option target="RTOS_TEST.elf"/>
 		</Unit>
+		<Unit filename="E:/a-component/a-key-open/RTOS_TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_conf.h">
+			<Option target="RTOS_TEST.elf"/>
+		</Unit>
 		<Unit filename="E:/a-component/a-key-open/RTOS_TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
 			<Option target="RTOS_TEST.elf"/>
 		</Unit>
@@ -306,6 +311,9 @@
 			<Option target="RTOS_TEST.elf"/>
 		</Unit>
 		<Unit filename="E:/a-component/a-key-open/RTOS_TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="RTOS_TEST.elf"/>
+		</Unit>
+		<Unit filename="E:/a-component/a-key-open/RTOS_TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h">
 			<Option target="RTOS_TEST.elf"/>
 		</Unit>
 		<Unit filename="E:/a-component/a-key-open/RTOS_TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
@@ -354,6 +362,9 @@
 			<Option target="RTOS_TEST.elf"/>
 		</Unit>
 		<Unit filename="E:/a-component/a-key-open/RTOS_TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="RTOS_TEST.elf"/>
+		</Unit>
+		<Unit filename="E:/a-component/a-key-open/RTOS_TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c">
 			<Option target="RTOS_TEST.elf"/>
 		</Unit>
 		<Unit filename="E:/a-component/a-key-open/RTOS_TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">

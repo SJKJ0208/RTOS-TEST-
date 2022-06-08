@@ -26,6 +26,7 @@
 #include "gpio.h"
 #include "usart.h"
 #include "retarget.h"
+#include "spi.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
